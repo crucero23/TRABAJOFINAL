@@ -1,0 +1,75 @@
+*{
+    @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;400;500;600;700 & display=swap');
+	padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6; /* gris claro */
+  }
+  
+  header {
+    background-color: #e85a71; /* rosado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(92, 43, 226);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* borde gris */
+    border-radius: 5px; /* esquinas redondeadas */
+    overflow: hidden;
+  }
+  
+  .contenido {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* borde gris */
+    border-radius: 3px; /* esquinas redondeadas */
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #3498db; /* azul */
+    color: white;
+    cursor: pointer;
+    border: 1px solid #2980b9; /* borde azul más oscuro */
+    border-radius: 3px; /* esquinas redondeadas */
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #2980b9; /* azul más oscuro al pasar el mouse */
+  }

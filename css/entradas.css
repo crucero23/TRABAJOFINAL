@@ -1,0 +1,96 @@
+
+
+*{
+  @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;400;500;600;700 & display=swap');
+padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+  }
+  
+  .contenedor {
+    display: flex;
+  }
+  
+  .menu {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  
+  .contenido {
+    flex: 2;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Ajusta estos estilos según el contenido de tu página */
+  .contenido h2 {
+    color: #333;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
